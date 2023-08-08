@@ -86,7 +86,7 @@ body{
     background-image: url(images/images.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     position: relative;
 }
 
@@ -145,7 +145,7 @@ h2 span{
     padding: 0;
     min-height: 100vh;
     display: flex;
-    align-items: cente r;
+    align-items: center;
     background-image: url(images/journey.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@ h2 span{
 .text h5{
     display: flexbox;
     padding: 6rem 7%;
-    margin-top: 4rem;
+    /* margin-top: 50%; */
     margin-left: 7rem;
     color: #fff;
     font-size: 2rem;
@@ -275,18 +275,24 @@ footer .credit a{
         font-size: 75%;
     }
 
+    .hero{
+        display: flex;
+        position: relative;
+    }
+
     .text{
         position: absolute;
     }
 
     .event .row .content{
-        display: flex;
+        /* display: flex; */
     }
 
     .event .row .event-map img{
         height: 24rem;
         object-fit: cover;
         object-position: center;
+        
     }
 }
 
