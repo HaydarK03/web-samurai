@@ -278,14 +278,11 @@ footer .credit a{
     .hero{
         display: flex;
         position: relative;
+        background-position: 60%;
     }
 
     .text{
         position: absolute;
-    }
-
-    .event .row .content{
-        /* display: flex; */
     }
 
     .event .row .event-map img{
@@ -298,11 +295,28 @@ footer .credit a{
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 68%;
+        font-size: 70%;
     }
+    .hero .content h1{
+        color: rgb(49, 49, 49);
+    }
+    
+    .hero .content p{
+        color: rgb(49, 49, 49);
+    }
+
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 430px) {
     html {
         font-size: 45%;
     }
+
+    .hero .content h1{
+        color: rgb(49, 49, 49);
+    }
+    
+    .hero .content p{
+        color: rgb(49, 49, 49);
+    }
+    
 }
