@@ -270,9 +270,13 @@ footer .credit a{
 
 
 /* media queries */
-@media all and (max-weight: 1300px) {
+@media screen and (max-width: 1300px) {
     html {
         font-size: 75%;
+    }
+
+    .text{
+        position: absolute;
     }
 
     .event .row .content{
@@ -286,12 +290,12 @@ footer .credit a{
     }
 }
 
-@media (max-weight: 768px) {
+@media screen and (max-width: 768px) {
     html {
         font-size: 68%;
     }
 }
-@media (max-weight: 380px) {
+@media screen and (max-width: 380px) {
     html {
         font-size: 45%;
     }
